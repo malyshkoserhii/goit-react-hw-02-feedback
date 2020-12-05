@@ -50,8 +50,6 @@ class App extends Component {
           />
         </Section>
 
-        {totalAmount === 0}
-
         <Section title="Statistics">
           {totalAmount === 0 ? (
             <NotificationMessage message="No feedback given" />
